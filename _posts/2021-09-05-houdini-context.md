@@ -9,7 +9,7 @@ tags:
   - tools
 ---
 
-Houdini Context
+## Houdini Context
 Houdini uses different disciplines/contexts to separate out different types of nodes for different types or work. Think of the different departments/disiciplines required to creation a 3D image or animation. From a high level view, it can generally be broken down into these subcategories:
 
 - Modelling
@@ -34,7 +34,7 @@ Objects sit at the top level of every scene. Each session or Houdini scene is co
 ##### Geometry
 - GEO
 - SOP (Surface Operators)
-- Any geometry modeling whether it's direct or procedural modelling happens here
+- Any geometry modeling whether it is direct or procedural modelling happens here
 - Contains anything pertaining to the manipulation of geom- etry
 
 ![Desktop View](/assets/img/posts/20210905-houdini-context/objs.png){: width="1024" height="512" .w-50 .middle}
@@ -113,7 +113,7 @@ Forms the core of Houdini's PDG system. At it's core, TOP networks are an elabor
 - TOP (Task Operators)
 - Dependency Networks to Automate Tasks
 - New and Improved version of the ROP Context
-- Run tasks in Parellel
+- Run tasks in parallel
 - Automation Tools
 
 ![Desktop View](/assets/img/posts/20210905-houdini-context/tops.png){: width="1024" height="512" .w-50 .middle}

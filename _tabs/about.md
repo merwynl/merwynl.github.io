@@ -5,7 +5,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-![Desktop View](/assets/img/logo.png){: width="512" height="512" .w-50 .right}
+![Desktop View](/assets/img/commons/logo.png){: width="512" height="512" .w-50 .right}
 
 I am a Technical / Lighting Artist with over 5 years of experience, working with real-time workflows and technologies, including VR/AR. I am currently working at Rotor Studios based in Sydney, Australia.
 

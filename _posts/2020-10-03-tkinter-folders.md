@@ -15,7 +15,7 @@ I like organizing my folder structure based on different applications & discipli
 
 This short script allows a user to generate a hierarchy of folders in a user-specified directory. It leverages tkinter for querying a directory in which to generate the project structure, and can be executed from a bat file for quicker access.
 
-{% highlight python linenos %}
+```python
 import os
 import tkinter as tk
 from tkinter import filedialog
@@ -84,55 +84,55 @@ def make_project_dir():
  
  
 make_project_dir()
-{% endhighlight %}
+```
 
 I could have a template folder structure sitting in some bespoke location, but that wouldn’t have been fun. Also, it could easily be misplaced. It also means that if for any reason, there were a duplicate copy of that template, I would then have to figure out which one’s the outdated one. Cue many past mistakes calling out.
 
 Let’s break it down a bit:
 
-{% highlight python linenos %}
+```python
 root = tk.Tk()
 root.withdraw()
-{% endhighlight %}
+```
 
 We initialized tKinter which draws the main window. But we don’t want to use that widget as we’ll be instantiating the filedialog class. This means we need a way to hide that widget window. That’s where the withdraw() function comes in. The opposite to that is deiconify(), which lets you show a previously hidden widget.
 
-{% highlight python linenos %}
+```python
 file_path = filedialog.askdirectory()
-{% endhighlight %}
+```
 The next thing we want is the to query the root location in which we’re going to be generating our hierarchy which is pretty self explanatory.
 
-{% highlight python linenos %}
+```python
 folders = ["houdini", "renders", "maya", "meshes", "references", "textures", "unreal"]
 houdini_folders = ["geo", "hda", "scripts", "tex"]
 texture_folders = ["designer", "painter", "output", "mixer", "psd"]
 renders_folder = ["wips", "finals", "marmoset"]
-{% endhighlight %}
+```
 
 Next comes the various folders & sub-directories that we want to create. Having separate lists for each collection of sub-directories seemed to make the most sense at the time but it makes it slightly difficult for expanding on options as that would require further adaptation of the code each time there were a new item required.
 
 This also makes if we throw a fancy UI over the top of this, we use these as presets and even give power to the user to expand on each of these sub-directory lists.
 
-{% highlight python linenos %}
+```python
 # Path to parent folders
 houdini_dir = os.path.join((file_path + "/" + folders[0]))
 textures_dir = os.path.join((file_path + "/" + folders[5]))
 renders_dir = os.path.join((file_path + "/" + folders[1]))
-{% endhighlight %}
+```
 
 It’s the same situation with the sub-directories, even more so. This is done in two stages. First, set the variables & paths for each of the parent folders that would contain sub-directories. Then create a series of lists for each of those relevant folders. Those lists will determine what those third level directories are.
 
-{% highlight python linenos %}
+```python
 # Sub-directories
 houdini_folders = ["geo", "hda", "scripts", "tex"]
 texture_folders = ["designer", "painter", "output", "mixer", "psd"]
 render_folders = ["wips", "finals", "marmoset"]
-{% endhighlight %}
+```
 This by far isn’t a safe approach as should those indexes change positions, our sub-directories will end up in the wrong location and we’d be very sad about it. It also, as mentioned earlier, further restricts the feasibility of expanding on these directories.
 
 It would be better if all of these lists were generated deterministically, maybe through an imported constants file or JSON dictionary, as opposed to a series of fixed list.
 
-{% highlight python linenos %}
+```python
 def make_project_dir():
  
     # Create primary folders
@@ -143,7 +143,7 @@ def make_project_dir():
             print("Creating " + f + " folders...")
         except FileExistsError:
             print("Folder already exists!")
-{% endhighlight %}
+```
 
 Next comes the main function body which is mostly the same code, but repeated for each of the different directories with two levels to them. Lots of repetition which we could reduce by wrapping inside a class and instantiating.
 
@@ -153,11 +153,11 @@ One thing that this script hasn’t taken into account though is if the user bai
 
 Ideally, the script would throw up either a confirmation box or finds a way to detect if a user has hit cancel.
 
-{% highlight python linenos %}
+```python
 @echo off
 python %~dp0\project_structure.py %*
 pause
-{% endhighlight %}
+```
 
 ‘This last snippet is used to call on the script and run the process. For this bat file to work, the file must sit in the same location as the python file. In essence %~dp0 expands the search to the path of that bat file. It’s a really handy way of making batch files more portable and accessible.
 

@@ -30,7 +30,7 @@ PySide sounded like a good option. It’s widely used, has native support in May
 I came across a command called workspaceControl. It was introduced back in Maya 2017 and provided a way to dock custom Qt widgets in Maya by invoking UI files through the uiScript flag. But it’s not necessary to use designer UI files. Their docs states that you can have your UI under a separate function and then call that function in your invoke.
 
 Here’s an example:
-{% highlight python linenos %}
+```python
 import pymel.core as pm
  
 if pm.workspaceControl("Window", exists =True):
@@ -50,7 +50,7 @@ def UI(*args):
     pm.setParent(primitives_layout)
  
 pm.workspaceControl("Window", retain=False, floating=True, uiScript="UI()")
-{% endhighlight %}
+```
 
 
 I’m not using a separate UI file as I didn’t want to have to manage another file if I didn’t have to. However, if this tool ever gets big enough where I have to split it up into more separate modules then I might revisit the idea then. The above solution sits my current needs.

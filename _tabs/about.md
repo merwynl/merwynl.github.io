@@ -2,7 +2,7 @@
 # the default layout is 'page'
 title: About Me・私について
 icon: fas fa-info-circle
-order: 4
+order: 7
 ---
 
 ![Desktop View](/assets/img/commons/logo.png){: width="512" height="512" .w-50 .right}

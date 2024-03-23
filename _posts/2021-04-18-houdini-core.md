@@ -6,7 +6,6 @@ tags:
   - 基本
   - 🔰初心者
   - proceduralism
-  - tools
 ---
 
 # Houdini Context

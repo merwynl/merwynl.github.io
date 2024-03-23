@@ -6,9 +6,7 @@ tags:
   - Auto
   - Automation
   - Py
-  - Python
   - Tkinter
-  - Tools
 ---
 
 I like organizing my folder structure based on different applications & disciplines. Having a clear idea of what your a project structure looks like will ensure that files & assets don’t go missing. I’ve been messing a bit with paths and directories and found that this would be a great opportunity to work a little on some of those skills with Python. The goal of this was to write something that was quick and simple though not necessarily optimal but leave plenty of room to improve and oh boy, I succeeded in that last part pretty well.

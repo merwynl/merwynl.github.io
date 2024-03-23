@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: page
 icon: fa-solid fa-gears
 order: 2
 ---

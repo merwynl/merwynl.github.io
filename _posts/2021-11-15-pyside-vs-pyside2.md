@@ -2,7 +2,6 @@
 title: "Pyside vs PySide2"
 tags:
   - pyside
-  - python
   - code
   - basics
   - 基本

@@ -1,12 +1,7 @@
 ---
 title: "Introduction to C++"
-tags:
-  - C++
-  - CPP
-  - code
-  - basics
-  - 基本
-  - 🔰初心者
+tags: [code, scripting, programming, cpp, c++, basics, 基本, 🔰初心者]
+category: [code]
 ---
 
 # Process

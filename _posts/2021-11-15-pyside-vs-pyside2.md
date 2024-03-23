@@ -1,11 +1,7 @@
 ---
 title: "Pyside vs PySide2"
-tags:
-  - pyside
-  - code
-  - basics
-  - 基本
-  - 🔰初心者
+tags: [code, Auto, Automation, Py, python]
+category: [code]
 ---
 
 # 1. PySide vs PySide2

@@ -1,10 +1,7 @@
 ---
 title: "Shuriken Toolkit Dev Log 0.0.1"
-tags:
-  - Auto
-  - Automation
-  - Py
-  - Tkinter
+tags: [code, Auto, Automation, Py, Tkinter]
+category: [code]
 ---
 
 For a while, I’ve been searching for a way to speed up my own personal workflow. Hotkeys and shortcuts are great but sometimes you might want to just click away if certain tools are close enough within reach. Plus there’s only so many tools you can quickly hotkey. Jumping back and forth between different DCC’s also means having to recall a lot of different hotkeys. That’s not a bad thing but someone just starting out may find, having to remember dozens and dozens of different hotkeys to be a little overwhelming.

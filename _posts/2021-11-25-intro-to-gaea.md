@@ -1,16 +1,7 @@
 ---
 title: "Intro to Gaea"
-tags:
-  - landscape
-  - terrain
-  - proceduralism
-  - textures
-  - rendering
-  - basics
-  - 背景
-  - 景色
-  - 基本
-  - 🔰初心者
+tags: [proceduralism, houdini, gamedev, ゲーム開発, basics, 基本, 🔰初心者]
+category: [gamedev]
 ---
 
 # Introduction to Gaea

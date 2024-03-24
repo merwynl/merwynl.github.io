@@ -2,6 +2,8 @@
 title: "PBR Theory"
 tags: [pbr, shading, materials, textures, rendering, basics, 基本, 🔰初心者]
 category: [shaders, gamedev, unreal, unity, ゲーム開発]
+lang: en
+ref: posts
 toc: true
 ---
 

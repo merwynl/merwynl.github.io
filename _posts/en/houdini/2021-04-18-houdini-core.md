@@ -2,6 +2,8 @@
 title: "Houdini Essentials 101"
 tags: [proceduralism, houdini, gamedev, ゲーム開発, basics, 基本, 🔰初心者]
 category: [gamedev]
+lang: en
+ref: posts
 ---
 
 # Houdini Context

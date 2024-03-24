@@ -2,6 +2,8 @@
 title: "Importing Modules & Package Scripts in Maya"
 tags: [code, Auto, Automation, Py]
 category: [code]
+lang: en
+ref: posts
 ---
 
 Importing & running external scripts is a key component in making scripts portable. Splitting your scripts into separate files is a convenient way of breaking a part large chunks of code & functionality into smaller pieces. Each separate python file that created is a module and a package is a collection of module/s.

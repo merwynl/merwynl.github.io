@@ -2,6 +2,8 @@
 title: "Pyside vs PySide2"
 tags: [code, Auto, Automation, Py, python]
 category: [code]
+lang: en
+ref: posts
 ---
 
 # 1. PySide vs PySide2

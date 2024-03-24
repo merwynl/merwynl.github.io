@@ -2,6 +2,8 @@
 title: "Notes on Textures & PBR"
 tags: [pbr, shading, materials, textures, rendering, basics, 基本, 🔰初心者]
 category: [gamedev]
+lang: en
+ref: posts
 ---
 
 ### Channel Packing Textures

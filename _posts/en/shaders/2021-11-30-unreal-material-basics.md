@@ -2,6 +2,8 @@
 title: "Material Basics in Unreal"
 tags: [pbr, shading, materials, textures, rendering, basics, 基本, 🔰初心者]
 category: [shaders, gamedev, unreal, ゲーム開発]
+lang: en
+ref: posts
 ---
 
 # Material Basics

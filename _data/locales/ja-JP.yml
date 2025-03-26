@@ -1,0 +1,93 @@
+# The layout text of site
+
+# ----- Commons label -----
+
+layout:
+  post: 投稿
+  category: カテゴリー
+  tag: タゲ
+
+# The tabs of sidebar
+tabs:
+  # format: <filename_without_extension>: <value>
+  home: ホーム
+  categories: カテゴリー
+  tags: タゲ
+  archives: アーカイブ
+  about: ついて
+
+# the text displayed in the search bar & search results
+search:
+  hint: 検索
+  cancel: キャンセル
+  no_results: 申し訳ございません! 検索結果が見つかりませんでした。
+
+panel:
+  lastmod: 最新更新
+  trending_tags: トレンド
+  toc: 内容
+
+copyright:
+  # Shown at the bottom of the post
+  license:
+    template: This post is licensed under :LICENSE_NAME by the author.
+    name: CC BY 4.0
+    link: https://creativecommons.org/licenses/by/4.0/
+
+  # Displayed in the footer
+  brief: All rights reserved.
+  verbose: >-
+    Except where otherwise noted, the blog posts on this site are licensed
+    under the Creative Commons Attribution 4.0 International (CC BY 4.0) License by the author.
+
+meta: Using the :PLATFORM theme :THEME.
+
+not_found:
+  statment: 申し訳ございません! リクエストされたurlはこのサーバー上に見つかりませんでした。
+
+notification:
+  update_found: 最新アップデート
+  update: 更新
+
+# ----- Posts related labels -----
+
+post:
+  written_by: から
+  posted: 投稿日
+  updated: 更新日
+  words: 言葉
+  pageview_measure: 表示
+  read_time:
+    unit: 分
+    prompt: 読む
+  relate_posts: 参考文献
+  share: 共有
+  button:
+    next: 最新
+    previous: 過去
+    copy_code:
+      succeed: コーピー成功しました！
+    share_link:
+      title: リンクをコーピー
+      succeed: リンクコーピーを成功しました！
+  # pinned prompt of posts list on homepage
+  pin_prompt: 固定
+
+# Date time format.
+# See: <http://strftime.net/>, <https://day.js.org/docs/en/display/format>
+df:
+  post:
+    strftime: '%b %e, %Y'
+    dayjs: 'll'
+  archives:
+    strftime: '%b'
+    dayjs: 'MMM'
+
+# categories page
+categories:
+  category_measure:
+    singular: カテゴリー
+    plural: カテゴリー
+  post_measure:
+    singular: 投稿
+    plural: 投稿

@@ -1,7 +1,7 @@
 ---
 icon: fas fa-at
 title: Contact Me
-order: 2
+order: 10
 ---
 ## Let’s Connect!🌐
 
@@ -9,7 +9,7 @@ order: 2
 
 I’m on a quest to make every pixel earn its paycheck and always eager to collaborate on projects that demand both technical precision and artistic vision.
 
-Whether refining pipelines, solving complex rendering challenges, or pioneering new tools, I am committed to shaping experiences that inspire and perform. Let’s build worlds that don’t just look incredible, but feel incredible to play. 🎮✨
+Whether its refining pipelines, solving complex rendering challenges, or pioneering new tools, I am committed to shaping experiences that inspire and perform. Let’s build worlds that don’t just look incredible, but feel incredible to play. 🎮✨
 
 Available for: Full-time, remote & freelance opportunities.
 

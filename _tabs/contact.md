@@ -1,7 +1,7 @@
 ---
 icon: fas fa-at
 title: Contact Me
-order: 10
+order: 11
 ---
 ## Let’s Connect!🌐
 
